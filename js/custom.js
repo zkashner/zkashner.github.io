@@ -3,40 +3,27 @@ $(document).ready(function () {
       overlay = $('.overlay'),
      isClosed = false;
 
-    trigger.click(function () {
-      hamburger_cross();
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-
   $('[data-toggle="offcanvas"]').click(function () {
         $('#wrapper').toggleClass('toggled');
   });
 });
 
+
+// Hamburger button, click to open sidebar
 $("#menu-toggle").click(function(e) {
-  e.preventDefault();
-  $("#wrapper").toggleClass("toggled");
+    $("#wrapper").toggleClass("toggled");
+});
+
+$("body").click(function(e) {
+   if(!$(e.target).hasClass('ham-btn-target')){
+       $("#wrapper").removeClass("toggled");
+   }
 });
 
 
-
+// Accordion JS, for opening/closing the papers' abstracts
 var acc = document.getElementsByClassName("accordion");
 var i;
-
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     this.classList.toggle("active");
