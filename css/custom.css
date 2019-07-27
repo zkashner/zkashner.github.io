@@ -28,6 +28,10 @@ body {
   font-weight: 400;
 }
 
+.top-sidebar-menu {
+  padding-top: 0px;
+}
+
 
 .sidebar-link.active,.sidebar-link:focus{
     background:#8c1515;
