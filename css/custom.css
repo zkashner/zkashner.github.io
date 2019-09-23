@@ -533,7 +533,11 @@ a, a:hover, a:focus {
   font-size:15px;
 }
 
-@media (max-width:629px) {
+.image-parent{
+  padding: 0.5rem 0.5rem;
+}
+
+@media (max-width:1200px) {
   img#optionalstuff {
     display: none;
   }
