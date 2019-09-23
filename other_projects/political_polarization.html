@@ -2,16 +2,6 @@
 <html>
 <head><meta charset="utf-8" />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144689618-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-144689618-1');
-  </script>
-
 <title>political_polarization</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
@@ -9139,15 +9129,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box
+/* This file is a compatability layer.  It allows the usage of flexible box 
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this
+`Modern browsers` comments below).  Browsers that are known to implement this 
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+
+    Internet Explorer 11+ 
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12529,7 +12519,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for
+  /* This injects handle bars (a short, wide = symbol) for 
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13028,7 +13018,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-
+    
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13082,14 +13072,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  }
-  div.output_wrapper {
+  } 
+  div.output_wrapper { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
-  div.output {
+  div.output { 
     display: block;
-    page-break-inside: avoid;
+    page-break-inside: avoid; 
   }
 }
 </style>
@@ -13228,7 +13218,7 @@ div#notebook {
 <p>I model polarization using Multinomial Inverse Regression (MNIR), a relatively new framework for text analysis developed in <a href="https://amstat.tandfonline.com/doi/full/10.1080/01621459.2012.734168">Taddy (2013)</a> and applied to a similar problem in <a href="https://www.brown.edu/Research/Shapiro/pdfs/politext.pdf">Gentzkow, Shapiro, and Taddy</a>. The MNIR framework allows dimension reduction for text data while preserving estimates of sentiment (in this case, DW-NOMINATE or party affiliation). Further, MNIR accommodates the intrinsic multinomial structure of text; politicians do not iteratively (or independently) choose each phrase in a speech, but rather simultaneously choose a large combination of different phrases.</p>
 <p>Consider count vectors $\mathbf{x}_i = [x_{i1}, \dots, x_{ip}]^T$ for each document $i$, where $p$ represents the number of bigrams in the representation. Define $m_i \equiv \sum_{j=1}^px_{ij}$ to be the total number of bigrams spoken.</p>
 <p>It is useful to assume that each $\mathbf{x}_i$ is independent. In the case of political speeches, that is a difficult assumption to defend given that all documents come from a small set of speakers, such that count vectors are likely to be strongly correlated across documents from the same speaker. I mitigate this by collapsing count vectors by speaker $s$ into a single count vector representing all speech by a given legislator, implicitly assuming that each speaker represents a unique and independent text-generating function: $\mathbf{x}_s = \sum_{i: s_i=s}\mathbf{x}_i\ \forall s \in S$, the set of all speakers. Similarly, $m_s = \sum_{i: s_i = s} m_i \ \forall s \in S$.</p>
-<p>Then $\mathbf{x}_s \sim MN(\mathbf{q}_s, m_s)$,where
+<p>Then $\mathbf{x}_s \sim MN(\mathbf{q}_s, m_s)$,where 
 \begin{align*}
 &amp;q_{sj} = \frac{\exp[\eta_{sj}]}{\sum_l^p\exp[\eta_{sl}]} \\
 &amp;\eta_{sj} = \alpha_j + \gamma_{j}D_{s} + \varphi_{j}r_s
@@ -13259,7 +13249,7 @@ where $D_s$ is the DW-NOMINATE score for speaker $s$ and $r_s$ is an indicator v
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>A gut-check confirms that these are sensi- ble: liberal bigrams include “comprehens.immigr,” “colleg.cost,” “decent.wage,” and “deni.health.” while conservative bigrams include “unborn.child,” “burdensom.regul,” “job.keyston,” and “kill.regul.”</p>
+<p>A gut-check confirms that these are sensible: liberal bigrams include “comprehens.immigr,” “colleg.cost,” “decent.wage,” and “deni.health.” while conservative bigrams include “unborn.child,” “burdensom.regul,” “job.keyston,” and “kill.regul.”</p>
 <p>There are also a few that are more surprising – conservative legislators apparently talk a lot about spotted owls. It turns out, spotted owls were put on the endangered species list in 1994. There has been a long-standing debate about whether the human cost was worth it; a number of timber towns in the Pacific Northwest shutdown due to government regulation of the spotted owl’s habitat. One of the top Google results for “spotted owls and republicans” is an article titled <a href="https://web.archive.org/web/20110919082054/http://www.renewamerica.com/columns/huston/051019">“George Bush Hates the Spotted Owl."</a></p>
 
 </div>
@@ -13379,7 +13369,7 @@ where $D_s$ is the DW-NOMINATE score for speaker $s$ and $r_s$ is an indicator v
   </div>
 </body>
 
-
+ 
 
 
 </html>
