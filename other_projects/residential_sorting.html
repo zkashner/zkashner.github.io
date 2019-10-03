@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144689618-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-144689618-1');
+  </script>
 
 <title>residential_sorting</title>
 
@@ -9129,15 +9138,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -12519,7 +12528,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -13018,7 +13027,7 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13072,14 +13081,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -13165,8 +13174,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Looking at maps is fun, but difficult to scale to more cities. A common measure in sociology for measuring segregation is the dissimilarity index. The index answers "what percentage of one group (e.g., men) would need to move in order for the distribution to be uniform." It is calculated as 
-$$diss_g = 1-\sum_g\Big[\frac{N_{m,g}}{N_m} - \frac{N_{f,g}}{N_f}\Big]$$ 
+<p>Looking at maps is fun, but difficult to scale to more cities. A common measure in sociology for measuring segregation is the dissimilarity index. The index answers "what percentage of one group (e.g., men) would need to move in order for the distribution to be uniform." It is calculated as
+$$diss_g = 1-\sum_g\Big[\frac{N_{m,g}}{N_m} - \frac{N_{f,g}}{N_f}\Big]$$
 This allows for a more scalable method of looking at dissimilarity in many cities.</p>
 <p><br></p>
 <p><center><i>Figure 4: Dissimilarity index</i></center>
@@ -13240,7 +13249,7 @@ This allows for a more scalable method of looking at dissimilarity in many citie
 <p><br></p>
 <p><center><i>Figure 9: Correlation: female-to-male and incarceration</i></center>
 <img src="images/incarc.png" width="550"/></p>
-<p>However, incarceration alone cannot explain the differences in neighborhood location of men and women. To test this, I regress the ratio of men to women against incarceration rate: 
+<p>However, incarceration alone cannot explain the differences in neighborhood location of men and women. To test this, I regress the ratio of men to women against incarceration rate:
 $$genderRatio_g \sim incarcerationRate_g + \epsilon_g$$</p>
 <p>I plot both the predicted value and the residual below. Even after controlling for incarceration rates, there is substantial clustering by gender.</p>
 <p><br></p>
@@ -13310,7 +13319,7 @@ $$genderRatio_g \sim incarcerationRate_g + \epsilon_g$$</p>
   </div>
 </body>
 
- 
+
 
 
 </html>
