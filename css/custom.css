@@ -499,16 +499,15 @@ a, a:hover, a:focus {
   padding: 10px 18px 10px;
 }
 
-.research-accordion:after {
-  content: '\02795';
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
+.research-heading:after {
+  content: ' [abstract]';
+  font-size: 1em;
+  color: #8c1514;
 }
 
-.research-accordion.active:after {
+.research-heading.active:after {
   content: '\2796';
+  font-size: 1em;
 }
 
 .list-group-item {
