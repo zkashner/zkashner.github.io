@@ -13,7 +13,7 @@
 }
 
 
-/* Text and backgrounds */ 
+/* Text and backgrounds -- smaller if small screen */ 
 body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -24,6 +24,12 @@ body {
 .about-well{
     font-size: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .about-well{font-size:16px;}
+  .body{font-size:14px;}
+}
+
 
 /* standardize coloring of many elements */ 
 .about-well, .navbar, .sidenav {
@@ -121,7 +127,7 @@ h3 {
 }
 /* Padding if small screen */ 
 @media screen and (max-width: 767px) {
-    .img-responsive{padding: 10px 0 0 0;}
+    .img-responsive{padding: 10px 0 0 0; margin-bottom: 30px; }
   }
 
 
