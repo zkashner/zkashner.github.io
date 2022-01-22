@@ -1,214 +1,169 @@
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144689618-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<html lang="en">
+<head>
+  <title>Cody Cook</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      gtag('config', 'UA-144689618-1');
-    </script>
+  <link rel="stylesheet" href="css/styling.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/gh_favicon.ico">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cody Cook</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- theme stylesheet-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="css/defaultstyle.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
 
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="images/gh_favicon.ico">
+<nav class="navbar navbar-default visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">About Me</a></li>
+        <li class="active"><a href="research.html">Research</a></li>
+        <li><a href="downloads/cv.pdf" target="_blank">Download CV</a></li>
+      </ul>
+  </div>
+</nav>
 
-
-  </head>
-  <body id='main-body' >
-    <!-- SIDEBAR -->
-    <div id='wrapper' class='d-flex'>
-        <div id="sidebar-wrapper" class="col-lg-4 col-md-4 col-sm-6">
-            <div id='logo' class="text-center">
+<div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav hidden-xs">
+          <div id='logo' class="text-center">
               <img src="images/stanfordemblem.png" class="img-thumbnail w-50">
             </div>
-            <ul class="sidebar-menu list-unstyled top-sidebar-menu">
-                  <li class="sidebar-list-item"><a href="index.html" class="sidebar-link text-muted text-uppercase"><i class="o-home-1 mr-3 text-gray"></i><span>Home</span></a></li>
-                  <li class="sidebar-list-item"><a href="research.html" class="sidebar-link text-muted active  text-uppercase"><i class="o-sales-up-1 mr-3 text-gray"></i><span>Research</span></a></li>
-                  <!--<li class="sidebar-list-item"><a href="other_projects.html" class="sidebar-link text-muted text-uppercase"><i class="o-sales-up-1 mr-3 text-gray"></i><span>Other</span></a></li>-->
-            </ul>
-            <hr>
-            <ul class="sidebar-menu list-unstyled">
-                <li class="sidebar-list-item"><i class="mr-3"></i><a href="downloads/cv.pdf" class="btn btn-secondary btn-block btn-sidebar" target="_blank" role="button"><span>Download CV</span></a></li>
-                <li class="sidebar-list-item"><i class="mr-3"></i><a href="https://scholar.google.com/citations?user=WtulGN0AAAAJ&hl=en&oi=sra" class="btn btn-secondary btn-block btn-sidebar" target="_blank" role="button">Google Scholar</a></li>
-                <li class="sidebar-list-item"><i class="mr-3"></i><a href="https://www.linkedin.com/in/cody-cook-667b794b/" class="btn btn-secondary btn-block btn-sidebar" target="_blank" role="button">LinkedIn</a></li>
-                <li class="sidebar-list-item"><i class="mr-3"></i><a href="https://github.com/codyfcook" class="btn btn-secondary btn-block btn-sidebar" target="_blank" role="button">Github</a></li>
-            </ul>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="text-muted text-uppercase"><a class="sidebar-link" href="index.html">About Me</a></li>
+          <li class="active text-muted text-uppercase"><a href="research.html">Research</a></li>    
+          <li class="text-muted text-uppercase"><a class="sidebar-link" href="downloads/cv.pdf" target="_blank">Download CV</a></li>
+        </ul><hr>
+        <div class="text-center">
+          <a href="https://scholar.google.com/citations?user=WtulGN0AAAAJ&hl=en&oi=ao"  target="_blank"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
+          <a href="https://github.com/codyfcook/" target="_blank"><i class="fa fa-github fa-2x"></i></a> &nbsp;&nbsp;
+          <a href="https://twitter.com/codyfcook" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
+          <a href="mailto:codyfcook@stanford.edu" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
         </div>
-    <!-- MAIN BODY -->
-      <div class="page-holder w-100 d-flex flex-wrap">
-          <div class="pageheader">
-              <div class="headercontent">
-                  <div class="section-container">
-
-                      <div class="row">
-                          <div class="clearfix visible-sm visible-xs"></div>
-                          <div class="col-sm-12 col-md-12">
-                            <button type="button" id="menu-toggle" class="d-md-none btn-hamburger ham-btn-target">
-                                <i class="material-icons md-48 ham-btn-target">menu</i>
-                            </button>
-                              <h4 class='title'>Research</h4>
-
-                              <!-- PUBLICATIONS -->
-                              <h2>Published Papers</h2>
-                              <!-- GENDER -->
-                              <div class="panel panel-default">
-                                  <div class="panel-heading accordion research-accordion"><h5 class='research-heading'>The Gender Pay Gap in the Gig Economy: Evidence from over a Million Uber Drivers </h5>with Rebecca Diamond, Jonathan Hall, John List, and Paul Oyer. <br> <i> Review of Economic Studies</i> Volume 88, Issue 5, October 2021, Pages 2210–2238 <br> <a href="papers/uberpaygap.pdf" target="_blank">[pdf]</a><a href="https://www.restud.com/paper/the-gender-earnings-gap-in-the-gig-economy-evidence-from-over-a-million-rideshare-drivers/" target="_blank"> [published version]</a><a href="papers/uberpaygap_slides.pdf" target="_blank"> [slides]</a><a href="https://twitter.com/codyfcook/status/1329600361762488321" target="_blank"> [twitter thread]</a>
-                                  </div>
-                                  <div class="panel-body panel-research">
-                                      <div class='panel-text'>
-                                          The growth of the gig economy generates worker flexibility that, some have speculated, will favor women. We explore this by examining labor supply choices and earnings among more than a million rideshare drivers on Uber in the U.S. We document a roughly 7% gender earnings gap amongst drivers. We show that this gap can be entirely attributed to three factors: experience on the platform (learning-by-doing), preferences over where to work (driven largely by where drivers live and, to a lesser extent, safety), and preferences for driving speed. We do not find that men and women are differentially affected by a taste for specific hours, a return to within-week work intensity, or customer discrimination. Our results suggest that there is no reason to expect the gig economy to close gender differences. Even in the absence of discrimination and in flexible labor markets, women's relatively high opportunity cost of non-paid-work time and gender-based differences in preferences and constraints can sustain a gender pay gap.
-                                          <hr>
-                                          Media: <a href="http://freakonomics.com/podcast/what-can-uber-teach-us-about-the-gender-pay-gap/">Freakonomics</a>,
-                                                 <a href="https://marginalrevolution.com/marginalrevolution/2018/02/uber-pay-gap.html">Marginal Revolution</a>,
-                                                 <a href="https://www.washingtonpost.com/news/business/wp/2018/07/09/a-study-of-uber-drivers-found-that-workplace-flexibility-may-not-close-the-gender-pay-gap/?utm_term=.6a22f7210aba">Washington Post</a>,
-                                                 <a href="https://www.ft.com/content/b5c9112a-212b-11e8-9efc-0cd3483b8b80">Financial Times</a>,
-                                                 <a href="https://www.theverge.com/2018/2/6/16980072/uber-driver-gender-earnings-gap-study">The Verge</a>,
-                                                 <a href="https://qz.com/work/1198825/why-male-uber-drivers-earn-more-than-women/">Quartz</a>,
-                                                 <a href="https://www.brookings.edu/blog/up-front/2018/06/28/hutchins-roundup-slack-and-inflation-the-gender-pay-gap-in-the-gig-economy-and-more/">Brookings</a>,
-                                                 <a href="https://www.telegraph.co.uk/business/2018/02/08/uber-drivers-can-help-explain-pay-gap/">Telegraph</a>,
-                                                 <a href="http://fortune.com/2018/02/06/uber-gender-pay-gap-study/">Fortune</a>,
-                                                 <a href="https://www.bloomberg.com/opinion/articles/2018-02-12/uber-may-be-paying-women-less-for-driving-better">Bloomberg</a>,
-                                                 <a href="https://www.economist.com/finance-and-economics/2018/10/04/worries-about-the-rise-of-the-gig-economy-are-mostly-overblown">The Economist</a>
-                                      </div>
-                                  </div>
-                              </div>
-                              <!-- AGE  -->
-                              <div class="panel panel-default">
-                                  <div class="panel-heading accordion research-accordion"><h5 class='research-heading'>Older Workers and the Gig Economy </h5>with Rebecca Diamond and Paul Oyer. <br><i>AEA Papers and Proceedings, 109: 372–376. 2019</i><br><a href="papers/oldworkersuberPP.pdf" target="_blank">[pdf]</a><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191042" target="_blank"> [published version]</a>
-                                  </div>
-                                  <div class="panel-body panel-research">
-                                      <div class='panel-text'>
-                                          One way for older workers to ease into retirement is to move to the gig economy where they can freely choose hours and intensity of work. We look at age/wage profiles of workers in the traditional labor market and of Uber drivers. While the move to the gig economy generates flexibility, it also moves pay closer to a spot market individuals earn (presumably) their marginal product.
-                                          Earnings for workers in traditional jobs increase steeply with age, while Uber earnings are steadily declining after age forty. This highlights the tradoff between flexible work arrangments and earnings.
-                                      </div>
-                                  </div>
-                              </div>
-
-                              <br><br>
-
-
-
-
-                              <!-- WORKING PAPERS -->
-                              <h2>Working Papers</h2>
-
-                              <div class="panel-group">
-
-                              <!-- MOBILITY OF STUDENTS AND ADULTS -->
-                                <div class="panel panel-default">
-                                  <div class="panel-heading accordion research-accordion"><h5 class='research-heading'>Urban Mobility and the Experienced Isolation of Students and Adults </h5>with Lindsey Currier and Edward Glaeser. <br> <a href="papers/urbanmobility.pdf" target="_blank">[pdf]</a>
-                                  </div>
-                                  <div class="panel-body panel-research">
-                                      <div class='panel-text'>
-                                        Do urban children live more segregated lives than urban adults? Using cellphone location data and following the ‘experienced isolation’ methodology of Athey et al. (2021), we compare the isolation of students over the age of 16—who we identify based on their time spent at a high school—and adults. We find that students in cities experience significantly less integration in their day-to-day lives than adults. The average student experiences 27% more isolation outside of the home than the average adult. Even when comparing students and adults living in the same neighborhood, exposure to devices associated with a different race is 20% lower for students. Looking at more broad measures of urban mobility, we find that students spend more time at home, more time closer to home when they do leave the house, and less time at school than adults spend at work. Finally, we find correlational evidence that neighborhoods with more geographic mobility today also had more intergenerational income mobility in the past. We hope future work will more rigorously test the hypothesis that different geographic mobility patterns for children and adults can explain why urban density appears to boost adult wages but reduce intergenerational income mobility.
-                                      </div>
-                                  </div>
-                              </div>
-
-                                <!-- COVID NETWORKS -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading accordion research-accordion"><h5 class='research-heading'>Socioeconomic Network Heterogeneity and Pandemic Policy Response </h5>with Mohammad Akbarpour, Aude Marzuoli, Simon Mongey, Abhishek Nagaraj, Matteo Saccarola, Pietro Tebaldi, and Shoshana Vasserman. <br> <a href="papers/network-heterogeneity-pandemic-policy.pdf" target="_blank">[pdf]</a> <a href="http://reopenmappingproject.com/" target="_blank">[website]</a>
-                                    </div>
-                                    
-                                    <div class="panel-body panel-research">
-                                        <div class='panel-text'>
-                                          We develop and implement a heterogeneous-agents network-based empirical model to analyze alternative policies during a pandemic outbreak. We combine several data sources, including information on individuals’ mobility and encounters across metropolitan areas, information on health records for  millions of individuals, and information on the possibility to be productive while working from home. This rich combination of data sources allows us to build a framework in which the severity of a disease outbreak varies across locations and industries, and across individuals who differ by age, occupation, and preexisting health conditions. We use this framework to analyze the impact of different social distancing policies in the context of the COVID-19 outbreaks across US metropolitan areas. Our  results highlight how outcomes vary across areas in relation to the underlying heterogeneity in population density, social network structures, population health, and employment characteristics. We find that policies by which individuals who can work from home continue to do so, or in which schools and firms alternate schedules across different groups of students and employees, can be  effective in limiting the health and healthcare costs of the pandemic outbreak while also reducing employment losses.
-                                          <hr>
-                                          Media: <a href="https://www.gsb.stanford.edu/insights/mapping-good-bad-pandemic-related-restrictions">Stanford News</a>,
-                                                 <a href="https://joshuagans.substack.com/p/cities-and-covid-response">Plugging the Gap</a>,
-                                                 <a href="https://newsroom.haas.berkeley.edu/research/reopen-mapping-project-illustrates-tradeoffs-between-health-and-jobs-for-different-policies-in-us-cities/">Berkeley Haas</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                              <br><br>
-
-                              <!--WORK IN PROGRESS -->
-
-                              <h2>Work in Progress</h2>
-                              <div class="panel-group">
-                                <!-- AMENITIES -->
-
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading accordion research-accordion"><h5>Local Amenities and Neighborhood Change</h5>
-                                        </div>
-                                    </div>
-
-
-                                    <!--
-                                    <div class="panel-body panel-research">
-                                        <div class='panel-text'>
-                                          I study the impact of neighborhood change on higher and lower income residents through the channel of neighborhood amenities. Using data on over 200 million visits to amenities, I first document four facts describing amenity consumption: 1) higher-income areas have more local amenities, 2) higher-income residents visit more amenities, 3) the distribution of clientele income varies by amenity type, and 4) residents travel further for some types of amenities than others. Motivated by these facts, I model preferences for amenities by income, conditioning on access by using the distance from a resident's home and work locations. For certain amenities (e.g., pizza places), higher and lower income residents have aligned preferences, while for others (e.g., restaurant chains) preferences diverge. In both the cross-section and time-series, I find evidence for the endogenous response of amenities to neighborhood demographics: cross-sectionally, amenities in higher income neighborhoods are preferred by higher income residents and over time, restaurants preferred by lower income residents are more likely to exit from neighborhoods that are gentrifying. The results suggest a role for policies that affect the composition of local amenities to reduce the level of income segregation in cities, which has been steadily increasing over the past 40 years.
-                                        </div>
-                                    </div>
-                                  -->
-
-                                  <!-- URBAN MOBILITY  -->
-                                  <!--
-                                  <div class="panel panel-default">
-                                      <div class="panel-heading accordion"><h5>Urban Mobility of Students and Adults</h5>
-                                      </div>
-
-                                      <div class="panel-body panel-research">
-                                          <div class='panel-text'>
-                                          ABSTRACT
-                                          </div>
-                                      </div>
-
-                                    </div>
-                                    -->
-                                </div>
-                                <br><br>
-
-
-                                  <!--<div class="panel panel-default">
-                                      <div class="panel-heading"><h5>Effects of Market Thickness on Inequality: Evidence from the US Housing Market</h5> with Nadia Kotova</div>
-                                  </div>
-
-                                  <div class="panel panel-default">
-                                      <div class="panel-heading"><h5>The Gender Pay Gap Around the World</h5>with Basil Halperin, and John List</div>
-                                  </div>
-
-                                  <div class="panel panel-default">
-                                      <div class="panel-heading"><h5>What’s Driving Heterogeneity in Worker Productivity? Evidence from Uber Drivers</h5>with Alex Bartik, John List, and Elizabeth Setren</div>
-                                  </div>
-
-                                -->
-
-                              </div>
-
-                              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-                      </div>
-                  </div>
-              </div>
-          </div>
       </div>
-    </div>
-    <!-- JavaScript files-->
-    <script src="jquery/jquery.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script src="js/custom.js"></script>
+      <br>
+    
+    <div class='main-content'>
+    <div class="col-sm-12">
+        <h1 class='top-title'>Research</h1>
+        <!-- WORKING PAPERS-->
+        <h3>Working papers</h3>
+        <div class="panel-group">
+        <!-- STUDENT V ADULT -->
+        <div class="panel panel-default">
+            <div class="panel-heading accordion research-accordion"><h4 class='research-heading'><span class="label label-primary label-new">New!</span> Urban Mobility and the Experienced Isolation of Students and Adults </h4>with Lindsey Currier and Edward Glaeser. <br> <a data-toggle="collapse" href="#collapse_um">[abstract]</a> <a href="papers/urbanmobility.pdf" target="_blank">[pdf]</a>
+            </div>                  
+            </div>
+            <div id="collapse_um" class="panel-collapse collapse">
+            <div class="panel-body panel-research">
+                <div class='panel-text'>
+                    Do urban children live more segregated lives than urban adults? Using cellphone location data and following the 'experienced isolation' methodology of Athey et al. (2021), we compare the isolation of students over the age of 16—who we identify based on their time spent at a high school—and adults. We find that students in cities experience significantly less integration in their day-to-day lives than adults. The average student experiences 27% more isolation outside of the home than the average adult. Even when comparing students and adults living in the same neighborhood, exposure to devices associated with a different race is 20% lower for students. Looking at more broad measures of urban mobility, we find that students spend more time at home, more time closer to home when they do leave the house, and less time at school than adults spend at work. Finally, we find correlational evidence that neighborhoods with more geographic mobility today also had more intergenerational income mobility in the past. We hope future work will more rigorously test the hypothesis that different geographic mobility patterns for children and adults can explain why urban density appears to boost adult wages but reduce intergenerational income mobility.                    
+                </div>                    
+            </div>
+        </div>        
+        <!-- COVID -->
+        <div class="panel panel-default">
+            <div class="panel-heading accordion research-accordion"><h4 class='research-heading'>Socioeconomic Network Heterogeneity and Pandemic Policy Response </h4>with Mohammad Akbarpour, Aude Marzuoli, Simon Mongey, Abhishek Nagaraj, Matteo Saccarola, Pietro Tebaldi, and Shoshana Vasserman. <br> <a data-toggle="collapse" href="#collapse_covid">[abstract]</a> <a href="papers/network-heterogeneity-pandemic-policy.pdf" target="_blank">[pdf]</a> <a href="http://reopenmappingproject.com/" target="_blank">[website]</a>
+            </div>                  
+            </div>
+            <div id="collapse_covid" class="panel-collapse collapse">
+            <div class="panel-body panel-research">
+                <div class='panel-text'>
+                    We develop and implement a heterogeneous-agents network-based empirical model to analyze alternative policies during a pandemic outbreak. We combine several data sources, including information on individuals’ mobility and encounters across metropolitan areas, information on health records for  millions of individuals, and information on the possibility to be productive while working from home. This rich combination of data sources allows us to build a framework in which the severity of a disease outbreak varies across locations and industries, and across individuals who differ by age, occupation, and preexisting health conditions. We use this framework to analyze the impact of different social distancing policies in the context of the COVID-19 outbreaks across US metropolitan areas. Our  results highlight how outcomes vary across areas in relation to the underlying heterogeneity in population density, social network structures, population health, and employment characteristics. We find that policies by which individuals who can work from home continue to do so, or in which schools and firms alternate schedules across different groups of students and employees, can be  effective in limiting the health and healthcare costs of the pandemic outbreak while also reducing employment losses.
+                    <hr>
+                    Media: <a href="https://www.gsb.stanford.edu/insights/mapping-good-bad-pandemic-related-restrictions">Stanford News</a>,
+                            <a href="https://joshuagans.substack.com/p/cities-and-covid-response">Plugging the Gap</a>,
+                            <a href="https://newsroom.haas.berkeley.edu/research/reopen-mapping-project-illustrates-tradeoffs-between-health-and-jobs-for-different-policies-in-us-cities/">Berkeley Haas</a>
+                    </div>                    
+            </div>
+            </div>
+        </div>
 
-  </body>
+        <!-- PUBLICATIONS -->
+        <h3>Published papers</h3>
+        <div class="panel-group">
+            <!-- GENDER -->
+            <div class="panel panel-default">
+                <div class="panel-heading accordion research-accordion"><h4 class='research-heading'>The Gender Pay Gap in the Gig Economy: Evidence from over a Million Uber Drivers </h4>with Rebecca Diamond, Jonathan Hall, John List, and Paul Oyer. <br> <i> Review of Economic Studies</i> Volume 88, Issue 5, October 2021, Pages 2210–2238 <br> <a data-toggle="collapse" href="#collapse1">[abstract]</a> <a href="papers/uberpaygap.pdf" target="_blank">[pdf]</a><a href="https://www.restud.com/paper/the-gender-earnings-gap-in-the-gig-economy-evidence-from-over-a-million-rideshare-drivers/" target="_blank"> [published version]</a><a href="papers/uberpaygap_slides.pdf" target="_blank"> [slides]</a><a href="https://twitter.com/codyfcook/status/1329600361762488321" target="_blank"> [twitter thread]</a>
+                </div>                  
+              </div>
+              <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body panel-research">
+                    <div class='panel-text'>
+                    The growth of the gig economy generates worker flexibility that, some have speculated, will favor women. We explore this by examining labor supply choices and earnings among more than a million rideshare drivers on Uber in the U.S. We document a roughly 7% gender earnings gap amongst drivers. We show that this gap can be entirely attributed to three factors: experience on the platform (learning-by-doing), preferences over where to work (driven largely by where drivers live and, to a lesser extent, safety), and preferences for driving speed. We do not find that men and women are differentially affected by a taste for specific hours, a return to within-week work intensity, or customer discrimination. Our results suggest that there is no reason to expect the gig economy to close gender differences. Even in the absence of discrimination and in flexible labor markets, women's relatively high opportunity cost of non-paid-work time and gender-based differences in preferences and constraints can sustain a gender pay gap.
+                    <hr>
+                    Media: <a href="http://freakonomics.com/podcast/what-can-uber-teach-us-about-the-gender-pay-gap/">Freakonomics</a>,
+                           <a href="https://marginalrevolution.com/marginalrevolution/2018/02/uber-pay-gap.html">Marginal Revolution</a>,
+                           <a href="https://www.washingtonpost.com/news/business/wp/2018/07/09/a-study-of-uber-drivers-found-that-workplace-flexibility-may-not-close-the-gender-pay-gap/?utm_term=.6a22f7210aba">Washington Post</a>,
+                           <a href="https://www.ft.com/content/b5c9112a-212b-11e8-9efc-0cd3483b8b80">Financial Times</a>,
+                           <a href="https://www.theverge.com/2018/2/6/16980072/uber-driver-gender-earnings-gap-study">The Verge</a>,
+                           <a href="https://qz.com/work/1198825/why-male-uber-drivers-earn-more-than-women/">Quartz</a>,
+                           <a href="https://www.brookings.edu/blog/up-front/2018/06/28/hutchins-roundup-slack-and-inflation-the-gender-pay-gap-in-the-gig-economy-and-more/">Brookings</a>,
+                           <a href="https://www.telegraph.co.uk/business/2018/02/08/uber-drivers-can-help-explain-pay-gap/">Telegraph</a>,
+                           <a href="http://fortune.com/2018/02/06/uber-gender-pay-gap-study/">Fortune</a>,
+                           <a href="https://www.bloomberg.com/opinion/articles/2018-02-12/uber-may-be-paying-women-less-for-driving-better">Bloomberg</a>,
+                           <a href="https://www.economist.com/finance-and-economics/2018/10/04/worries-about-the-rise-of-the-gig-economy-are-mostly-overblown">The Economist</a>
+                    </div>                    
+                </div>
+              </div>
+        <!-- UBER OLD-->
+              <div class="panel panel-default">
+                <div class="panel-heading accordion research-accordion"><h4 class='research-heading'>Older Workers and the Gig Economy </h4>with Rebecca Diamond and Paul Oyer. <br><i>AEA Papers and Proceedings, 109: 372–376. 2019</i><br><a data-toggle="collapse" href="#collapse2">[abstract]</a> <a href="papers/oldworkersuberPP.pdf" target="_blank">[pdf]</a><a href="https://www.aeaweb.org/articles?id=10.1257/pandp.20191042" target="_blank"> [published version]</a>
+                </div>                  
+              </div>
+              <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body panel-research">
+                    <div class='panel-text'>
+                        One way for older workers to ease into retirement is to move to the gig economy where they can freely choose hours and intensity of work. We look at age/wage profiles of workers in the traditional labor market and of Uber drivers. While the move to the gig economy generates flexibility, it also moves pay closer to a spot market individuals earn (presumably) their marginal product. Earnings for workers in traditional jobs increase steeply with age, while Uber earnings are steadily declining after age forty. This highlights the tradoff between flexible work arrangments and earnings.
+                    </div>                    
+                </div>
+              </div>
+        </div>
+
+        <!-- WORK IN PROGRESS-->
+        <h3>Work in progress</h3>
+        <!-- AMENITIES -->
+        <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading accordion research-accordion"><h4 class='research-heading'>Gentrification and Preferences for Neighborhood Amenities</h4><a data-toggle="collapse" href="#collapse_amenities">[abstract]</a>
+              </div>                  
+            </div>
+            <div id="collapse_amenities" class="panel-collapse collapse">
+              <div class="panel-body panel-research">
+                  <div class='panel-text'>
+                    Increasing income segregation has led to rising concerns that cities are becoming divided into neighborhoods for the rich and others for the poor. In this paper, I use data on over 150 million visits to local amenities—including restaurants, shops, personal services, and entertainment places—to study how preferences for local amenities vary by income. I build a hierarchical choice model that provides both establishment-level preference estimates as well as a framework for evaluating the overall value of neighborhood amenity access. At the establishment-level, higher and lower income residents' preferences are strongly correlated within some categories of amenities, such as general merchandise stores, but far less correlated within other categories such as restaurants, salons/barbers, and gyms. Using the estimated model, I construct a Neighborhood Amenity Quality Index (NAQI) that measures the value of a neighborhood's overall access to amenities for both higher and lower income residents. At the neighborhood-level, preferences for overall access to amenities are far more correlated than establishment-level preferences. Rather than neighborhoods for the rich and others for the poor, cities contain amenity-dense neighborhoods that all residents value and amenity-poor areas that have limited access to amenities. 
+                  </div>                    
+              </div>
+            </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading accordion research-accordion"><h4 class='research-heading'>Value Pricing or Lexus Lanes? Winners and Losers from Dynamic Toll Pricing </h4>with Pearl Li. <br><a data-toggle="collapse" href="#collapse_cp">[abstract]</a>
+          </div>                  
+        </div>
+        <div id="collapse_cp" class="panel-collapse collapse">
+          <div class="panel-body panel-research">
+              <div class='panel-text'>
+                Who wins and who loses when we price a subset of highway lanes? Toll lanes allow drivers to sort into paying with money or with travel time, which might increase overall efficiency at the expense of lower-income drivers. On the other hand, the option value of paying for speed may outweigh a small increase in everyday travel time. In this project, we present a model of commuters’ route and departure time choice on a highway road network and estimate it using data from Seattle-area Express Toll Lanes. We use the model to evaluate the welfare and distributional consequences of the Express Lanes, and to compare the current pricing regime to counterfactual pricing policies.
+              </div>                    
+          </div>
+        </div>
+    </div>
+      <br><br><br><br><br><br><br>
+
+
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
