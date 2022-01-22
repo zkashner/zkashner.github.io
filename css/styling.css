@@ -18,7 +18,7 @@ body {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-color:#F8F9FB; 
+    background-color: whitesmoke; 
     overflow-y: scroll; /* Show vertical scrollbar */
   }
 .about-well{
