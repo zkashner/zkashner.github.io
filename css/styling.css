@@ -160,10 +160,19 @@ ul {
     text-decoration: none;
   }
 
-  /* Link color */ 
-  a, a:hover, a:focus {
+/* Link color */ 
+a, a:hover, a:focus {
     color:#8c1515;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
 
 /* List group coloring */
 .list-group-item{
@@ -177,7 +186,7 @@ ul {
 /* New labels */ 
 .label-new {
   background-color: slategrey;
-  font-size:65%;
+  font-size:60%;
   padding: 0.2em 0.4em 0.2em; 
   vertical-align: middle;
 }
