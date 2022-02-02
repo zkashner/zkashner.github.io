@@ -165,15 +165,6 @@ a, a:hover, a:focus {
     color:#8c1515;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-a:focus {
-  text-decoration: none;
-}
-
-
 /* List group coloring */
 .list-group-item{
   border: 0px; 
