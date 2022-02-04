@@ -165,6 +165,21 @@ a, a:hover, a:focus {
     color:#8c1515;
 }
 
+.btn-cv {
+  background-color: #8c1515; 
+  color: white;
+  padding: 8px 10px;
+  margin-bottom: 10px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-cv:hover, .btn-cv:focus  {
+  background-color: #740e0e; 
+  color: white;
+}
+
 /* List group coloring */
 .list-group-item{
   border: 0px; 
