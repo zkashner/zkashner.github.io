@@ -56,6 +56,16 @@ body {
     height: auto;
 }
 
+.navbar-nav>li>a {
+  font-weight: 350;
+}
+
+.navbar-nav>li.active>a, .navbar-nav>li.active>a:focus, .navbar-nav>li.active>a:hover {
+  color: #fff!important;
+  background-color: #8c1515!important;
+  text-decoration:none;
+}
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #8c1515;
