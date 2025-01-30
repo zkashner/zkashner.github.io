@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google Tag Manager -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT2LY0HENG"></script>
     <script>
@@ -10,89 +13,130 @@
     
       gtag('config', 'G-LT2LY0HENG');
     </script>
+    <!-- End Google Tag Manager -->
+
+    <style>
+      .small-break {
+        line-height: 0;
+      }
+    </style>
+
+    <!-- Link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Optional alternative stylesheets -->
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css"
+    >
+    -->
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    >
+    -->
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+..."
+      crossorigin="anonymous"
+    >
+
+    <!-- Favicon Links -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+      .gl {
+        color: gray;
+        text-decoration: none; /* Optional: to remove underlines */
+      }
+      .gl:hover {
+        text-decoration: underline; /* Optional: to add underline on hover */
+      }
+    </style>
+
     <title>Zane Kashner</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Zane Kashner">
-    <meta name="description" content="Zane Kashner's academic website">
-    <meta name="keywords" content="zane-kashner zane-r-kashner stanford-zane-kashner zane-kashner-stanford zane-kashner-gsb kashner-gsb kashner-stanford">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/styling.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="images/gh_favicon.ico">
+  </head>
 
-</head>
-<body>
+  <body>
+    <div class="body">
+      <div class="block" id="left">
+        <h1>Zane Kashner</h1>
+        <br>
+        <img src="images/headshot.png" alt="Picture">
+        <p>
+          I am a Ph.D student in Economics at the Stanford Graduate School of Business.
+        </p>
+        <p>
+          Email: zkashner at stanford dot edu
+        </p>
+        <p>
+          <a href="files/cv.pdf">CV</a> |
+          <a href="https://scholar.google.com/citations?user=H2oZdTIAAAAJ&hl=en">Google Scholar</a>
+        </p>
+      </div>
 
-<nav class="navbar navbar-default visible-xs">
-    <div class="container-fluid">
-        <div class="navbar-header">
-        </div>
-        <ul class="nav navbar-nav">
-            <li class="text-muted text-uppercase active"><a href="index.html">Home</a></li>
-            <li class="text-muted text-uppercase"><a href="research.html">Research</a></li>
-            <li class="text-muted text-uppercase"><a href="cv.html">CV</a></li>
-        </ul>
-    </div>
-    </nav>
-      
+      <div class="block" id="right">
+        <h2 class="no_top_margin">Working Papers</h2>
+        <div id="papersList"></div>
+        <hr style="border: 0; height: 1px; background-color: gray;">
 
-<div class="container-fluid">
-  <div class="row content">
-    <div class="col-sm-3 sidenav hidden-xs">
-        <ul class="nav nav-pills nav-stacked", style="padding-top:2em">
-            <li class="active text-muted text-uppercase"><a href="index.html">Home</a></li>
-            <li class="text-muted text-uppercase"><a class="sidebar-link" href="research.html">Research</a></li>    
-            <li class="text-muted text-uppercase"><a class="sidebar-link" href="cv.html">CV</a></li>
-        </ul><hr>
-    <div class="text-center">
-        <a href="mailto:zkashner@stanford.edu" target="_blank"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
-        <a href="https://scholar.google.com/citations?user=H2oZdTIAAAAJ&hl=en&oi=ao"  target="_blank"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
-        <a href="https://github.com/zkashner/" target="_blank"><i class="fa fa-github fa-2x"></i></a> &nbsp;&nbsp;
-        <a href="https://twitter.com/zanekashner" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a> &nbsp;&nbsp;
-    </div>
-  </div>
-  <br>
+        <h2 class="bottom-three">Works in Progress</h2>
+        <div id="wipList"></div>
+        <hr style="border: 0; height: 1px; background-color: gray;">
 
-<div class='main-content'>
-    <div class="col-sm-12">
-        <h1 class='top-title'>Zane Kashner</h1>                 
+        <h2 class="bottom-three">Other Work</h2>
+        <div id="otherPubsList"></div>
+      </div>
     </div>
 
-    <div class="col-sm-4 col-sm-push-8">
-        <img alt="image" src="images/headshot.png" class="img-responsive">
-    </div>
+    <script>
+      let currentlyOpenAbstract = null;
 
-    <div class="col-sm-8 col-sm-pull-4">      
-        <div class="well about-well">
-            <h3>Biography</h3>
-            <p> Welcome! I am a 4th-year PhD candidate in Economics at Stanford GSB, focusing on environmental/public economics and industrial organization. Some of my research interests include local governance, place-based policy, and the direction of science.</p>
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        var allAbstracts = document.getElementsByClassName("abstract-show");
 
-            <p>I grew up in Evanston, IL, but have been at Stanford nearly continuously since 2016 other than when I hiked the Pacific Crest Trail.</p>
-    
-            <p>If you have any questions or thoughts about my research, my email is <a href="mailto:zkashner@stanford.edu" target="_blank">zkashner@stanford.edu</a>. </p>
-        </div>
-        <div class="well about-well">
-            <h3>Education</h3>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item">Ph.D. in Economics, Stanford GSB. Expected 2027.</li>
-                <li class="list-group-item">B.A. in Economics, Stanford University. 2020. </li>
-              </ul>
-        </div>
-        </div>  
+        // Close all other abstracts with the class "abstract-show"
+        for (var i = 0; i < allAbstracts.length; i++) {
+          allAbstracts[i].className = allAbstracts[i].className.replace("-show", "-hide");
+        }
 
+        if (currentlyOpenAbstract === id) {
+          // If the currently open abstract is the same as the one clicked, close it.
+          x.className = x.className.replace("abstract-show", "abstract-hide");
+          currentlyOpenAbstract = null;
+        } else {
+          // Otherwise, open the clicked abstract and close any others that may be open.
+          x.className = x.className.replace("abstract-hide", "abstract-show");
+          currentlyOpenAbstract = id;
+        }
+      }
+    </script>
 
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-</body>
+    <script src="loadWP.js"></script>
+  </body>
 </html>
