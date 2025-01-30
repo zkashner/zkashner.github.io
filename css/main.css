@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Monsieur-La-Doulaise');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Georgia');
+@import url('https://fonts.googleapis.com/css?family=Work-Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans');
+
+body{
+/*    font: 14px/1.5 'Rubik', serif; */ 
+    font: 14px/1.5 'Noto Sans', serif; 
+    font-weight: lighter;
+
+}
+li {
+   padding-left: 1em;
+}
+
+.body{
+    margin: 3%;
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', serif; 
+    margin-left: 0%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 25pt;
+    margin-block-end: 0;
+}
+
+h2{
+    font-family: 'Montserrat', serif; 
+    font-weight: bold;
+}
+.no_top_margin{
+    margin-block-start: normal;
+}
+
+img{
+    width: 250px;
+}
+
+@media (min-width:1000px){  
+
+.block{
+    display: inline-block;
+    margin: 1%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+
+
+#left{
+    width: 20%;
+    max-width: 300px;
+    min-width: 200px;
+    justify-content: left;
+    top: 0;
+    vertical-align: top;
+    position:fixed;
+}
+#right{
+    width:65%;
+    margin-top: 0%;
+    margin-right: 10%;
+    margin-left: 10%;    
+    float: right; 
+    display:inline-block;
+}
+
+.no_top_margin{
+    margin-block-start: 0%;
+}
+}
+
+
+ul{
+    margin:0;
+}
+a{
+    color: #0a0a5a;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #0a0a5a; 
+}
+.graylinks{
+    user-select: none;
+    cursor: pointer; 
+    color: slategray;
+    background-color: whitesmoke; 
+    text-decoration: none;
+    font-weight: 100; 
+    padding: 5px;
+    margin-left: 20px;
+    white-space: nowrap; 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 210%;
+}
+.abstract-show{
+    user-select: none;
+    display: block; 
+    color: black;
+    background-color: white; 
+    text-decoration: none;
+    font-weight: 100; 
+    padding: 5px;
+    margin-left: 20px;
+    white-space: wrap; 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 140%;
+}
+.abstract-hide{
+    user-select: none;
+    display: none; 
+    color: black;
+    background-color: white; 
+    text-decoration: none;
+    font-weight: 100; 
+    padding: 5px;
+    margin-left: 20px;
+    white-space: nowrap; 
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 140%;
+}
+.graylinks:hover{
+    user-select: none;
+    color: slategray;
+    text-decoration: none;
+    background-color: #dedede; 
+}
+
+@media (max-width:1000px){  
+    .graylinks{
+        display: inline-block;
+        line-height: 150%;
+    }
+}
+.advisors-box {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.advisors-box h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.advisors-box ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.advisors-box li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.paper-title-container {
+  margin: 0;
+  margin-bottom: 2px; /* Reduced space below the title */
+}
+
+.paper-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #0a0a5a;
+}
+
+.paper-authors {
+  margin: 0;
+  margin-bottom: 2px; /* Reduced space below authors */
+  font-size: 0.95em;
+  color: #555;
+}
+
+.paper-authors a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.paper-authors a:hover {
+  text-decoration: underline;
+}
+
+.paper-date {
+  color: black; /* Changed from gray to black */
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.paper-appended-text {
+  /* font-style: italic; */ /* Removed italics */
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.paper-links {
+  margin: 0;
+  font-size: 0.95em;
+}
+
+.paper-links a {
+  color: #0a0a5a;
+  text-decoration: none;
+}
+
+.paper-links a:hover {
+  text-decoration: underline;
+}
+
+.abstract-content {
+  display: none;
+  text-align: justify;
+  line-height: 1.2;
+  margin-top: 10px; /* Add this line to create space above the abstract */
+}
+
+.abstract-content small {
+  font-size: 0.95em;
+}
+
+.coauthor-name {
+  color: #0074D9; /* Same color as .paper-title */
+  text-decoration: none;
+}
+
+.coauthor-name:hover {
+  text-decoration: underline;
+}

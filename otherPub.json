@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Phase Offsets and the Energy Budgets of Hot Jupiters",
+    "authors": [
+      {
+        "name": "Zane Kashner",
+        "link": "https://zkashner.github.io/"
+      },
+      {
+        "name": "Joel C. Schwartz",
+        "link": "https://joelcolinschwartz.com/"
+      },
+      {
+        "name": "Diana Jovmir",
+        "link": "https://www.linkedin.com/in/diana-jovmir-5b118a64/"
+      },
+      {
+        "name": "Nicolas B. Cowan",
+        "link": "https://www.physics.mcgill.ca/~cowan/"
+      }
+    ],
+    "pdf": "https://zkashner.github.io/files/phase_offsets_hot_jupiters.pdf",
+    "abstract": "Thermal phase curves of short-period planets on circular orbits provide joint constraints on the fraction of incoming energy that is reflected (Bond albedo) and the fraction of absorbed energy radiated by the night hemisphere (heat recirculation efficiency). Many empirical studies of hot Jupiters have implicitly assumed that the dayside is the hottest hemisphere and the nightside is the coldest hemisphere. For a given eclipse depth and phase amplitude, an orbital lag between a planet’s peak brightness and its eclipse—a phase offset—implies that planet’s nightside emits greater flux. To quantify how phase offsets impact the energy budgets of short-period planets, we compile all infrared observations of the nine planets with multi-band eclipse depths and phase curves. Accounting for phase offsets shifts planets to lower Bond albedo and greater day–night heat transport, usually by <1σ. For WASP-12b, the published phase variations have been analyzed in two different ways, and the inferred energy budget depends sensitively on which analysis one adopts. Our fiducial scenario supports a Bond albedo of 0.27, significantly higher than the published optical geometric albedo, and a recirculation efficiency of 0.03, following the trend of larger day–night temperature contrast with greater stellar irradiation. If instead we adopt the alternative analysis, then WASP-12b has a Bond albedo consistent with zero and a much higher recirculation efficiency. To definitively determine the energy budget of WASP-12b, new observational analyses will be necessary.",
+    "appendedText": "<em>The Astrophysical Journal</em>, Volume 850, Issue 2: 154, December 2017"
+  }
+]
