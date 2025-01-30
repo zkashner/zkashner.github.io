@@ -35,7 +35,9 @@ function populatePapers(jsonList, containerID, addPeriodBeforeDate, isWorkingPap
     // Build the HTML for each paper
     let html = `
       <p class="paper-title-container">
-        <a href="${paper.pdf}" class="paper-title" target="_blank" rel="noopener noreferrer">"${paper.title}"</a>
+        ${paper.pdf 
+          ? `<a href="${paper.pdf}" class="paper-title" target="_blank" rel="noopener noreferrer">"${paper.title}"</a>`
+          : `<span class="paper-title">"${paper.title}"</span>`}
       </p>
     `;
 
