@@ -7,9 +7,25 @@
         "link": "https://zkashner.github.io/"
       }
     ],
-    "date": "May 2025",
-    "abstract": "How do developers build projects with local externalities? In theory, with efficient bargaining and full property rights, externalities are fully internalized and all socially beneficial projects proceed (Coase, 1960). Due to political economy or contracting frictions, what actually occurs may not be efficient. I study this general problem in the context of wind farms, which are key to a green transition. I develop a model of strategic developer-community interaction where wind farms are built only if they are both profitable and allowable by local governments. I find that the average household willingness to pay to avoid a wind farm is around 20% of their home's value. Political economy frictions are quantitatively small, local governments relatively closely represent their constituents' preferences. Despite this, contracting frictions cause inefficiently few wind farms to be built near households. I compare the performance of alternative market designs in reaching the United States' net-zero carbon goals. Of the existing policies regulating the transfers wind developers make to the local government, in the form of property taxes, simply paying taxes leads to around $210 and $110 billion greater social welfare than if the developers are tax-exempt or may negotiate payments respectively.",
-    "appendedText": ""
+    "date": "September 2025",
+    "abstract":     "How do local governments regulate new construction with costly local externalities? How do developers respond to such regulation? Any political economy, bargaining, or contracting frictions may cause what actually occurs to be inefficient, in contrast with the model of Coase (1960). I study this problem in the context of wind farms. I develop a model of strategic wind developer-local government interaction where wind farms are built only if they are both profitable and allowed by local governments net of transfers. The average measured household willingness to pay to avoid a wind farm is around $13K. I find that local governments trade off $3 of transfer with $1 of externality. Beyond this, there are inefficiently few wind farms to be built near households. I find this is due to state-level regulations restricting contracts over transfers, which regulate their amount or timing. I compare the performance of alternative contract regulations in reaching the United States’ net-zero carbon goals. I find that wind developers paying local governments 20% of the affected homes’ value leads to $220 billion more in social welfare than when the developers pay nothing to the local communities.",
+    "appendedText": "Job Market Paper"
+  },
+  {
+    "title": "Churches and Local Economies",
+    "authors": [
+      {
+        "name": "Zane Kashner",
+        "link": "https://zkashner.github.io/"
+      },
+      {
+        "name": "Max Pienkny",
+        "link": "https://maxpienkny.github.io/"
+      }
+    ],
+    "date": "September 2025",
+    "abstract":  "How important are churches to local economic outcomes? Exploiting two plausibly exogenous shocks to church access and attendance, we study the causal effect of churches on a variety of economic and social outcomes. Using data from the Southern Baptist Convention (SBC), we study: (1) unexpected pastor deaths, which precipitate church closures, and (2) SBC pastor convictions for sex crimes, which also alter local congregations and attendance. Across multiple data sources, we find that churches exert large positive effects on economic activity and wellbeing, and that these effects are partly due to the church's role in facilitating social connectedness.",
+    "appendedText": "Job Market Paper"
   },
   {
     "title": "Local Economic Spillovers from Water Trade",
