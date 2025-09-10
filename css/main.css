@@ -87,12 +87,12 @@ ul{
     margin:0;
 }
 a{
-    color: #00693C;
+    color: #014226;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
-    color: #00693C; 
+    color: #014226; 
 }
 .graylinks{
     user-select: none;
@@ -192,7 +192,7 @@ a:hover{
 .paper-title {
   font-weight: bold;
   font-size: 1.1em;
-  color: #00693C;
+  color: #014226;
 }
 
 .paper-authors {
@@ -229,7 +229,7 @@ a:hover{
 }
 
 .paper-links a {
-  color: #00693C;
+  color: #014226;
   text-decoration: none;
 }
 
