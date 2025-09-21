@@ -1,10 +1,27 @@
 [
   {
+    "title": "Churches and Local Economies",
+    "authors": [
+      {
+        "name": "Zane Kashner",
+        "link": "https://zanekashner.com/"
+      },
+      {
+        "name": "Max Pienkny",
+        "link": "https://maxpienkny.github.io/"
+      }
+    ],
+    "date": "September 2025",
+    "pdf": "https://zanekashner.com/files/churches.pdf",
+    "abstract":  "Do local churches shape economic life? We study this question in the Southern Baptist Convention (SBC), the nation’s largest Protestant denomination, exploiting two shocks to congregational life: pastor deaths and pastor convictions for sexual abuse. We show that deaths translate nearly one-for-one into church closures and convictions cause large, lasting declines in Baptist attendance. These disruptions affect local economies, with labor-force participation falling, unemployment rising and nearby home prices declining for several years following both shocks. They also lead to changes in political and health behaviors, counties exposed to a conviction shift left in two-party vote share and experience higher opioid mortality. Taken together, the results document sizable local consequences of shocks to congregational life for economic, political, and health outcomes, underscoring the importance of churches as a determinant of place-based social capital.",
+    "appendedText": ""
+  },
+  {
     "title": "Measuring and Mitigating Traffic Externalities",
     "authors": [
       {
         "name": "Zane Kashner",
-        "link": "https://zkashner.github.io/"
+        "link": "https://zanekashner.com/"
       },
       {
         "name": "Brad Ross",
@@ -12,7 +29,7 @@
       }
     ],
     "date": "January 2025",
-    "pdf": "https://zkashner.github.io/files/traffic_externalities.pdf",
+    "pdf": "https://zanekashner.com/files/traffic_externalities.pdf",
     "abstract": "Denser housing construction can alleviate rising housing costs, but opponents frequently cite car traffic as a primary concern. We quantify these heterogeneous traffic costs from new residents across the Boston Combined Statistical Area. Using data on households’ intra-metro-area travel, the road network, road speeds, and routing decisions, we estimate monthly traffic counts on every street. We find that moving a house from the 25th percentile of the distribution of nearby street traffic to the 75th percentile decreases its value by 20%, while adding the same number of monthly trips to the street of a similar house at the 75th percentile only decreases its value by 2.7%. We estimate a structural, hedonic model of households’ residential choices and visits to points of interest and find that households are willing to pay to avoid both car traffic on their street and travel time, but that these preferences vary widely across the population. Using the model and estimates of how traffic volumes affect road speeds, we simulate the traffic externalities caused by adding new residents in different locations. We find that a Massachusetts state law targeting a 10% housing stock increase to land near public transit stops causes $3.3 billion in traffic externalities from these new residents, an $820 million reduction relative to spreading those homes uniformly across space. Building those units on thoroughfares instead would decrease welfare costs by an additional $520 million.",
     "appendedText": ""
   },
@@ -21,7 +38,7 @@
     "authors": [
       {
         "name": "Zane Kashner",
-        "link": "https://zkashner.github.io/"
+        "link": "https://zanekashner.com/"
       },
       {
         "name": "Jamie Halper",
@@ -29,7 +46,7 @@
       }
     ],
     "date": "March 2025",
-    "pdf": "https://zkashner.github.io/files/peremptories_full.pdf",
+    "pdf": "https://zanekashner.com/files/peremptories_full.pdf",
     "abstract": "We use the abolition of peremptory strikes in Arizona in 2022, which eliminated attorneys' ability to strike prospective jurors without cause, to estimate how jury selection affects differences in conviction rates by race. Comparing to New Mexico, we find the difference in conviction rates between Hispanic and non-Hispanic defendants in Maricopa County drops by around 13 percentage points immediately after the removal of peremptory strikes. We find no evidence of changes in selection into trial and suggestive evidence that the effect is driven by large decreases in Hispanic defendants' relative likelihood of conviction among judges for whom it was previously the largest.",
     "appendedText": ""
   }
