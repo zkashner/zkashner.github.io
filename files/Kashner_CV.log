@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.30)  4 OCT 2025 15:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.9.30)  5 OCT 2025 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -411,19 +411,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--366
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--381
+Underfull \hbox (badness 10000) in paragraph at lines 377--382
 
  []
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.01065pt too wide) in paragraph at lines 405--414
+Overfull \hbox (6.01065pt too wide) in paragraph at lines 406--415
 [][] 
  []
 
@@ -448,7 +443,7 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1000.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on Kashner_CV.pdf (2 pages, 122942 bytes).
+Output written on Kashner_CV.pdf (2 pages, 124092 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
