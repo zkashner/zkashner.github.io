@@ -1,17 +1,5 @@
 [
   {
-    "title": "Building with Externalities: Local Governments and Wind Farms",
-    "authors": [
-      {
-        "name": "Zane Kashner",
-        "link": "https://zkashner.github.io/"
-      }
-    ],
-    "date": "October 2025",
-    "abstract": "Does local government regulation of new infrastructure with local externalities result in efficiency? Although local governments can reflect local costs, political or contracting frictions may cause actual outcomes to deviate from the idealized benchmark of Coase (1960). I study this problem in the context of wind farms. I develop a model of strategic wind developer-local government interaction where wind farms are built only if they are both profitable and allowed by local governments net of payments from developers to the local government. I estimate that the average household cost of living 3 miles from a wind farm is around 7.5% of their home’s value. I find that what is built appears to trade off over $7 of cost to households for a $1 increase in engineering profit. Part of this is that local governments must be paid roughly $3 to approve a project with $1 of externality. Beyond this, I find that state regulations that limit payments to local governments further depress wind-farm construction. I compare the performance of alternative developer-government contract regulations in reaching the United States’ net-zero carbon goals. I find that requiring wind developers to pay local governments 20% of the nearby homes’ value leads to $360 billion more in social welfare than when the developers pay local governments nothing.",
-    "appendedText": "<b>Job Market Paper</b>, <i>Best Student Paper at the 2025 Urban Economics Association North American Meeting</i>"
-  },
-  {
     "title": "Local Economic Spillovers from Water Trade",
     "authors": [
       {
