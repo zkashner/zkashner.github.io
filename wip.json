@@ -1,6 +1,6 @@
 [
   {
-    "title": "Local Economic Spillovers from Water Trade",
+    "title": "Local Control over Trade: Evidence from Water Market Integration",
     "authors": [
       {
         "name": "Zane Kashner",
@@ -11,8 +11,8 @@
         "link": "https://billyferguson.github.io/"
       }
     ],
-    "date": "October 2025",
-    "abstract": "How do permanent changes in the amount of water available for productive uses affect local communities? Concerns about negative impacts on local economies that sell water have driven repugnance toward water market liberalization and curtailed efforts to promote market re-allocation—a powerful policy tool to adapt to increasing water scarcity. This paper uses the liberalization of water markets in Australia's Murray-Darling Basin in 2007 to investigate the effects of the re-allocation of water on local economies and residents' welfare. We exploit differences in endowments of soil productivity to instrument for post-reform changes in water usage to measure their effect on wages, home prices, and populations. Losing water is associated with lower wages, lower rents, and lower populations 14 years on. To quantify the welfare implications, we develop and estimate a residential choice model. The model-implied average willingness to pay to avoid a nearby farmer selling an acre-foot of water is around $50, which is around a quarter of the average market price. We consider different market designs that ensure Pareto improvements for all local communities while achieving the productive efficiency gains of an unfettered market.",
+    "date": "October 2026",
+    "abstract": "Market integration directs resources toward higher-value uses, but the resulting spatial reallocation of economic activity can generate local spillovers. Communities may anticipate these spillovers and exert protectionist local control over trade. We study the integration of the world's largest water market to measure local spillovers, estimate communities' value for local production, and quantify how community control would limit trade. We find that a 10% decrease in local irrigation reduces household incomes by 3%, agricultural employment by 7%, and population by 5%. We use a dynamic residential choice model to estimate that median community willingness to pay for the local benefits of irrigation is AUD $117/ML, with 13% of community valuations above the average market price of $235/ML. We combine these estimates with farmer gains from trade to show how information, targeting, and the surplus available for compensation shape the effect of community control on trade. When community values are privately known and transacting farmers must secure community consent through compensation, only 51% of trades that increase farmer surplus proceed. Uniform compensation without community consent requires substantially larger payments to preserve similar levels of trade.",
     "appendedText": "Slides available upon request."
   },
   {
